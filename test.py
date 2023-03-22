@@ -15,7 +15,7 @@ class TestWhiteboard(unittest.TestCase):
         self.assertEqual(solution([-1, 0, 0, 0, 0, 2]), [-1, 2, 0, 0, 0, 0])
 
     def test_5(self):
-        self.assertEqual(solution([0]), [0])
+        self.assertEqual(solution([0, 0, 0, 0, 0]), [0, 0, 0, 0, 0])
 
 if __name__ == "__main__":
     unittest.main()
